@@ -34,8 +34,4 @@ function solve(filename) {
 	}
 	return Object.values(filesystem).filter(x => x < 100_000).reduce((a, b) => a + b, 0);
 }
-
-
-
-
 console.log(solve('data/input7.1.txt'));
